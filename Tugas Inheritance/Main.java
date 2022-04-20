@@ -111,6 +111,7 @@ public class Main {
                     }
                 } else if (pil == 3) {
                     player2.breath();
+                    player.hp = player.hp - player2.dmg;
                 } else if (pil == 0) {
                     System.exit(0);
                 }
